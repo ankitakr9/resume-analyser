@@ -1,0 +1,73 @@
+# ===============================
+# Maven / Java
+# ===============================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===============================
+# Environment Variables & Secrets
+# ===============================
+.env
+.env.*
+!.env.example
+
+application-local.properties
+application-secret.properties
+
+# ===============================
+# Spring Boot
+# ===============================
+*.log
+
+# ===============================
+# STS / Eclipse
+# ===============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===============================
+# IntelliJ IDEA
+# ===============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ===============================
+# NetBeans
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+
+# ===============================
+# Node.js / React
+# ===============================
+node_modules/
+frontend src/node_modules/
+frontend src/dist/
+
+# ===============================
+# Operating System
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
